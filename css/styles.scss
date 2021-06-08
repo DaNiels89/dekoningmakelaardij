@@ -7,11 +7,13 @@ $colorLightGray: #f2f2f2;
 body {
 	font-family: Arial, sans-serif;
 	color: $colorGray;
+	overflow-x: hidden;
 }
 
 h1,
 h2 {
 	color: $colorDark;
+	font-weight: bold;
 }
 
 h1 {
@@ -22,16 +24,24 @@ h2 {
 	font-size: 2.5rem;
 }
 
+img {
+	max-width: 100%;
+}
+
 p {
 	&.main-p {
 		color: $colorDark;
 		font-size: 1.875rem;
+	}
+	&.p-wanneer-waarom {
+		border-bottom: 1px solid $colorGray;
 	}
 }
 
 span {
 	&.span-h1 {
 		color: $colorDark;
+		font-weight: bold;
 		font-size: 3rem;
 	}
 }
@@ -40,7 +50,27 @@ button {
 	background-color: $colorPurePink;
 	color: $colorLight;
 	padding: 0.5em 1em;
+	border: 1px solid $colorPurePink;
+	&.dkm-form-btn {
+		background: $colorPurePink;
+		color: $colorLight;
+		border-radius: 0;
+		border: 1px solid $colorPurePink;
+	}
 }
+
+form {
+	input,
+	textarea {
+		&.form-control {
+			border-radius: 0 !important;
+		}
+		&.dkm-input {
+			background: $colorLightGray;
+		}
+	}
+}
+
 .vh-30 {
 	min-height: 30vh;
 }
@@ -53,12 +83,16 @@ button {
 	min-height: 50vh;
 }
 
+.fs-19 {
+	font-size: 1.1875rem;
+}
+
 .bgc-light {
 	background: $colorLight;
 }
 
 .bg-image {
-	background-image: url("/img/corners.png");
+	background-image: url("/dkm/img/corners.png");
 }
 
 .bg-light-gray {
@@ -73,7 +107,11 @@ button {
 }
 
 .right {
-	transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg) scale(2) translateY(1px, -2px);
+	-webkit-transform: rotate(-45deg) scale(2) translate(1px, -2px);
 	color: $colorPurePink;
+}
+
+.modal-dialog.modal-dialog-centered {
+	max-width: 1000px !important;
 }
