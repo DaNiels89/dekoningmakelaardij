@@ -40,13 +40,13 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col my-4 d-flex justify-content-center">
-					<p class="mb-0 font-weight-bold">Woning taxaties Meierijstad - De Koning Makelaardij</p>
+					<p class="mb-0 font-weight-bold">Taxaties Meierijstad <img src="img/icoon.png" alt="De Koning Makelaardij Icoon" class="header-icon"> Woning taxeren <img src="img/icoon.png" alt="De Koning Makelaardij" class="header-icon"> De Koning Makelaardij Sint-Oedenrode</p>
 				</div>
 			</div>
 		</div>
 
 		<div class="container-fluid">
-			<div class="row bg-image vh-50 d-flex align-items-center py-5 mb-5">
+			<div class="row vh-50 d-flex align-items-center py-5 mb-5">
 				<div class="col-xl-5 offset-xl-1 p-4 p-md-5">
 					<h1 class="mb-5">Uw woning taxeren Meierijstad</h1>
 					<p class="main-p font-weight-bold">
@@ -117,8 +117,8 @@
 
 		<div class="container-fluid">
 			<div class="row d-flex align-items-center">
-				<div class="col-xl-4 order-xl-2 p-4 p-md-5">
-					<img src="img/corners.png" alt="" class="">
+				<div class="col-xl-4 order-xl-2 p-0">
+					<img src="img/blok1-stock-photo-smiling-real-estate-agent-offering-to-young-couple-to-buy-a-cottage-while-meeting-at-office-677813482.jpg" alt="" class="">
 				</div>
 				<div class="col-xl-6 order-xl-1 offset-xl-1 p-4 p-md-5">
 					<h2 class="mb-5">Een vakkundige taxatie laten uitvoeren</h2>
@@ -129,12 +129,12 @@
 						bijvoorbeeld een aan- of verkoopbeslissing, een echtscheiding of een
 						minnelijke waardering.
 					</p>
-					<button type="button" class="" data-toggle="modal" data-target="#modalForm">Neem direct contact op</button>
+					<button type="button" class="my-4" data-toggle="modal" data-target="#modalForm">Neem direct contact op</button>
 				</div>
 			</div>
 		</div>
 
-		<div class="container-fluid bg-light-gray">
+		<div class="container-fluid bgc-light-gray">
 			<div class="row my-5">
 				<div class="col-xl-6 offset-xl-3 p-4 p-md-5 px-xl-0">
 					<h2 class="mb-5">Wanneer/waarom je huis taxeren?</h2>
@@ -165,11 +165,11 @@
 
 		<div class="container-fluid pt-5">
 			<div class="row d-flex align-items-center">
-				<div class="col-xl-6 bg-image vh-40">
-					<span></span>
+				<div class="col-xl-6 bg-image vh-40 p-0">
+					<img src="img/blok2-stock-photo-concept-office-paperwork-close-up-of-the-hand-of-a-business-woman-writing-with-a-silver-pen-and-1901418667.jpg" alt="" class="">
 				</div>
 				<div class="col-xl-5 p-4 p-md-5">
-					<h2>Verzekerd van een gevalideerd taxatierapport</h2>
+					<h2 class="mb-5">Verzekerd van een gevalideerd taxatierapport</h2>
 					<p class="">
 						U bent bij ons verzekerd van een vakkundig rapport dat opgesteld is
 						volgens de richtlijnen van het NWWI (Nederlands Woning Waarde
@@ -189,7 +189,7 @@
 						Dat is zeker in vergelijking met collega makelaars een zéér scherp
 						tarief.
 					</p>
-					<button type="button" class="" data-toggle="modal" data-target="#modalForm">Neem direct contact op</button>
+					<button type="button" class="my-4" data-toggle="modal" data-target="#modalForm">Neem direct contact op</button>
 				</div>
 			</div>
 		</div>
@@ -248,10 +248,10 @@
 			</div>
 		</div>
 		
-		<div class="container-fluid bg-light-gray">
+		<div class="container-fluid bgc-pure-pink">
 			<div class="row">
 				<div class="col my-4 d-flex justify-content-center">
-					<p class="mb-0">Copyright &copy; De Koning Makelaardij</p>
+					<p class="mb-0 text-white">Copyright &copy; De Koning Makelaardij Sint-Oedenrode - Taxaties Meierijstad</p>
 				</div>
 			</div>
 		</div>
@@ -265,7 +265,7 @@
 					<span aria-hidden="true">&times;</span>
 				  </button>
 				</div>
-				<div class="modal-body py-5">
+				<div class="modal-body py-5 my-lg-5">
 				  <form class="dkm-form" method="post">
 						<div class="row">
 							<div class="col-sm-6 d-flex flex-column justify-content-between">
@@ -273,7 +273,7 @@
 									<div class="col">
 										<div class="form-group">
 											<label class="d-none" for="name"></label>
-											<input class="form-control dkm-input" type="text" id="name" name="name" placeholder="Naam" />
+											<input class="form-control form-control-lg dkm-input" type="text" id="name" name="name" placeholder="Naam" />
 										</div>
 									</div>
 								</div>
@@ -281,7 +281,7 @@
 									<div class="col">
 										<div class="form-group">
 											<label class="d-none" for="phone"></label>
-											<input class="form-control dkm-input" type="number" id="phone" name="phone" placeholder="Telefoonnummer" />
+											<input class="form-control form-control-lg dkm-input" type="number" id="phone" name="phone" placeholder="Telefoonnummer" />
 										</div>
 									</div>
 								</div>
@@ -289,7 +289,7 @@
 									<div class="col">
 										<div class="form-group">
 											<label class="d-none" for="email"></label>
-											<input class="form-control dkm-input" type="email" id="email" name="email" placeholder="E-mailadres*" required />
+											<input class="form-control form-control-lg dkm-input" type="email" id="email" name="email" placeholder="E-mailadres*" required />
 										</div>
 									</div>
 								</div>
@@ -300,14 +300,14 @@
 									<div class="col">
 										<div class="form-group">
 											<label class="d-none" for="message"></label>
-											<textarea class="form-control dkm-input" id="message" name="message" rows="4" placeholder="Bericht"></textarea>
+											<textarea class="form-control form-control-lg dkm-input" id="message" name="message" rows="4" placeholder="Bericht"></textarea>
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col">
 										<div class="form-group">
-											<button class="form-control dkm-form-btn" name="contact" type="submit">Neem contact met ons op</button>
+											<button class="form-control form-control-lg dkm-form-btn" name="contact" type="submit">Neem contact met ons op</button>
 										</div>
 									</div>
 								</div>

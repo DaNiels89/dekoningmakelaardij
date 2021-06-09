@@ -3,6 +3,7 @@ $colorDark: #000;
 $colorPurePink: #e2007a;
 $colorGray: #666;
 $colorLightGray: #f2f2f2;
+$colorOtherPink: #ff49ab;
 
 body {
 	font-family: Arial, sans-serif;
@@ -43,19 +44,21 @@ span {
 		color: $colorDark;
 		font-weight: bold;
 		font-size: 3rem;
+		line-height: 1.2;
 	}
 }
 
 button {
 	background-color: $colorPurePink;
 	color: $colorLight;
-	padding: 0.5em 1em;
-	border: 1px solid $colorPurePink;
+	padding: 0.625em 1.875em;
+	border: 1px solid $colorOtherPink;
+	border-radius: 0.25em;
 	&.dkm-form-btn {
 		background: $colorPurePink;
 		color: $colorLight;
-		border-radius: 0;
-		border: 1px solid $colorPurePink;
+		border-radius: 0.25em;
+		border: 1px solid $colorOtherPink;
 	}
 }
 
@@ -63,10 +66,14 @@ form {
 	input,
 	textarea {
 		&.form-control {
-			border-radius: 0 !important;
+			border-radius: 0.25em !important;
 		}
-		&.dkm-input {
-			background: $colorLightGray;
+	}
+	input {
+		&.form-control {
+			&.form-control-lg {
+				height: calc(2em + 1rem + 2px);
+			}
 		}
 	}
 }
@@ -87,16 +94,40 @@ form {
 	font-size: 1.1875rem;
 }
 
+.header-icon {
+	margin: 0 1em;
+}
+
 .bgc-light {
 	background: $colorLight;
 }
 
-.bg-image {
-	background-image: url("dkm/img/corners.png");
+.bgc-pure-pink {
+	background: $colorPurePink;
 }
 
-.bg-light-gray {
+.bgc-light-gray {
 	background: $colorLightGray;
+}
+
+.a-underline-none:hover {
+	text-decoration: none;
+}
+
+.bg-image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	&.hero-img-1 {
+		background-image: url("/img/hero1-stock-photo-urk-netherlands-may-dutch-suburban-area-with-modern-family-houses-newly-build-modern-family-1091212700-web.jpg");
+	}
+	&.hero-img-2 {
+		background-image: url("/img/hero2-stock-photo-newly-built-houses-in-a-family-friendly-modern-suburban-neighborhood-with-solar-panels-en-electric-1366579610-web.jpg");
+	}
+}
+
+.form-div {
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .arrow {
@@ -114,4 +145,29 @@ form {
 
 .modal-dialog.modal-dialog-centered {
 	max-width: 1000px !important;
+}
+
+@media screen and (max-width: 600px) {
+	p {
+		&.p-header {
+			max-width: 40ch;
+		}
+		&.p-max-char {
+			max-width: 32ch;
+		}
+	}
+
+	a {
+		&.a-header {
+			display: block;
+			margin: 1em auto;
+		}
+	}
+
+	img {
+		&.header-icon {
+			width: 50px;
+			height: 50px;
+		}
+	}
 }
