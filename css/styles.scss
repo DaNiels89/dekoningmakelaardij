@@ -154,8 +154,14 @@ form {
 	color: $colorPurePink;
 }
 
-.modal-dialog.modal-dialog-centered {
-	max-width: 1000px !important;
+#modalForm {
+	.modal-dialog.modal-dialog-centered {
+		max-width: 1000px !important;
+	}
+	.modal-header {
+		border-bottom: 0;
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 600px) {
