@@ -39,6 +39,17 @@ p {
 	}
 }
 
+a {
+	color: $colorPurePink;
+	&:link,
+	&:visited,
+	&:hover,
+	&:focus,
+	&:active {
+		color: $colorPurePink;
+	}
+}
+
 span {
 	&.span-h1 {
 		color: $colorDark;
