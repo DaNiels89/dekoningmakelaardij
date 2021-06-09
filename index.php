@@ -53,7 +53,7 @@
 						Een vakkundig en gevalideerd taxatierapport voor slechts € 495 incl.
 						btw.
 					</p>
-					<button type="button" class="" data-toggle="modal" data-target="#modalForm">Neem direct contact op</button>
+					<button type="button" class="my-5" data-toggle="modal" data-target="#modalForm">Neem direct contact op</button>
 				</div>
 				<div class="col-xl-5 bgc-light p-4 p-md-5">
 					<p class="text-center">
@@ -101,7 +101,7 @@
 								<div class="row">
 									<div class="col">
 										<div class="form-group">
-											<button class="form-control dkm-form-btn" name="contact" type="submit">Neem contact met mij op</button>
+											<button class="form-control dkm-form-btn" name="contact" type="submit">Neem contact met ons op</button>
 										</div>
 									</div>
 								</div>
@@ -260,7 +260,7 @@
 			<div class="modal-dialog modal-xl modal-dialog-centered">
 			  <div class="modal-content">
 				<div class="modal-header">
-				  <h2 class="modal-title">Neem contact met mij op</h2>
+				  <h2 class="modal-title">Neem contact met ons op</h2>
 				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				  </button>
@@ -307,7 +307,7 @@
 								<div class="row">
 									<div class="col">
 										<div class="form-group">
-											<button class="form-control dkm-form-btn" name="contact" type="submit">Neem contact met mij op</button>
+											<button class="form-control dkm-form-btn" name="contact" type="submit">Neem contact met ons op</button>
 										</div>
 									</div>
 								</div>
